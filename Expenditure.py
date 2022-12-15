@@ -32,9 +32,10 @@ while 1:
     print(Start_Date.strftime("시작일 : %Y년 %m월 %d일 맞나요?"))
     print(End_Date.strftime("마감일 : %Y년 %m월 %d일 맞나요?"))
 
+    # 입력 확인
     Confirm = input('(Y/N)')
 
-    # Yes 이외의 답이 나면 다시 입력 함수를 돌림
+    # Yes 이외의 답이 나면 다시 입력을 받음
     if Confirm == 'Y' or Confirm == 'y' or Confirm == 'yes' or Confirm == 'YES':
         break
     else:
